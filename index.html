@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avinash Shah — Game Developer & 3D Systems Engineer</title>
+  <meta name="description" content="Game development portfolio of Avinash Shah — IIIT Una '27. Unity game developer, 3D graphics programmer (C++ OpenGL), and systems engineer.">
+
+  <!-- Typography: Inter, Space Grotesk, and JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page-container">
+
+    <!-- 1. Navigation Header -->
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="header-brand">
+          <a href="#hero" class="brand-title">Avinash Shah</a>
+          <span class="brand-subtitle">Game Developer & 3D Systems Engineer</span>
+        </div>
+
+        <nav class="nav-menu">
+          <a href="#games" class="nav-link">Games</a>
+          <a href="#graphics" class="nav-link">3D Graphics</a>
+          <a href="#systems" class="nav-link">Web & Systems</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#profiles" class="nav-link">Profiles</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="https://drive.google.com/file/d/18fDafogWGlxZG-SP24j79e-df253U2F3/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+            Resume [PDF]
+          </a>
+          <a href="#contact" class="btn btn-primary btn-sm">
+            Contact
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- 2. Hero Overview (Game Dev Focus) -->
+      <section id="hero" class="hero-section">
+        <div class="hero-content">
+          <div class="hero-tag">
+            <span>IIIT Una '27 CSE / Game Developer & Systems Engineer</span>
+          </div>
+
+          <h1 class="hero-heading">
+            Engineering <span class="highlight">indie games</span> in Unity, 3D graphics pipelines, and real-time systems.
+          </h1>
+
+          <p class="hero-bio">
+            Computer Science undergraduate at IIIT Una. Focused on playable indie game development in Unity (C#), custom 3D graphics engines (C++17 & OpenGL), physics gameplay mechanics, and real-time multiplayer systems with strong algorithmic foundations.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#games" class="btn btn-primary">
+              Explore Games ↓
+            </a>
+            <a href="https://openglt-3d-visualizer.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              Live 3D Engine ↗
+            </a>
+            <a href="https://drive.google.com/file/d/18fDafogWGlxZG-SP24j79e-df253U2F3/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              Download Resume
+            </a>
+          </div>
+
+          <div class="hero-stats-strip">
+            <div class="stat-item">
+              <span class="stat-number">4 Titles</span>
+              <span class="stat-label">Shipped Games</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">3rd Place</span>
+              <span class="stat-label">IIT Ropar GameJam</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">551+</span>
+              <span class="stat-label">LeetCode (Top 2.5%)</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">28+</span>
+              <span class="stat-label">Public Git Repos</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-portrait-aside">
+          <div class="portrait-frame">
+            <div class="portrait-photo-box">
+              <img src="assets/avinash_photo.jpg" alt="Avinash Shah — Game Developer and 3D Systems Engineer">
+            </div>
+            <div class="portrait-meta">
+              <div class="portrait-name">Avinash Shah</div>
+              <div class="portrait-sub">IIIT Una (B.Tech CSE '27)</div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <!-- 3. Dedicated Section: Games & Interactive Media (Above WebDev) -->
+      <section id="games" class="section-wrapper">
+        <div class="section-head">
+          <span class="section-eyebrow">Interactive Portfolio</span>
+          <h2 class="section-title">Games & Interactive Media</h2>
+          <p class="section-description">
+            Playable titles built in Unity across 3D wave survival, award-winning atmospheric physics puzzles, viral horror-comedy WebGL, and commercial mobile releases.
+          </p>
+        </div>
+
+        <div class="games-grid">
+          <!-- Game 1: Outbreak: Day Zero -->
+          <article class="game-card">
+            <div class="game-media-box">
+              <img src="assets/outbreak_day_zero.jpg" alt="Outbreak Day Zero cover art">
+              <span class="game-badge">Wave Survival</span>
+            </div>
+            <div class="game-content">
+              <span class="game-category">3D Shooter / Action</span>
+              <h3 class="game-title">
+                <a href="https://avinash-shah.itch.io/outbreak-day-zero" target="_blank" rel="noopener noreferrer">
+                  Outbreak: Day Zero
+                </a>
+              </h3>
+              <p class="game-desc">
+                High-intensity 3D zombie wave survival shooter built from scratch in Unity. Players navigate an infected containment perimeter, managing tactical ammunition economy and weapon recoil mechanics while defending against dynamic enemy horde AI under mounting time pressure.
+              </p>
+              <div class="game-features">
+                <div class="game-feature-item">
+                  <span class="bullet">✓</span>
+                  <span>Intelligent NavMesh AI pathfinding with dynamic horde clustering</span>
+                </div>
+                <div class="game-feature-item">
+                  <span class="bullet">✓</span>
+                  <span>Modular weapon handling, procedural recoil, and hit registration</span>
+                </div>
+                <div class="game-feature-item">
+                  <span class="bullet">✓</span>
+                  <span>Atmospheric post-processing and dynamic audio cues</span>
+                </div>
+              </div>
+              <div class="game-tags">
+                <span class="tag-pill">Unity 3D</span>
+                <span class="tag-pill">C#</span>
+                <span class="tag-pill">NavMesh AI</span>
+                <span class="tag-pill">Combat Systems</span>
+                <span class="tag-pill">Windows</span>
+              </div>
+              <div class="game-actions">
+                <a href="https://avinash-shah.itch.io/outbreak-day-zero" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  Play on Itch.io ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Game 2: Fractured Core (IIT Ropar 3rd Place) -->
+          <article class="game-card">
+            <div class="game-media-box">
+              <img src="assets/fractured_core.png" alt="Fractured Core cover art">
+              <span class="game-badge award">★ 3rd Place IIT Ropar</span>
+            </div>
+            <div class="game-content">
+              <span class="game-category">Narrative Puzzle Platformer</span>
+              <h3 class="game-title">
+                <a href="https://indieangamedev.itch.io/fractured-core" target="_blank" rel="noopener noreferrer">
+                  Fractured Core
+                </a>
+              </h3>
+              <p class="game-desc">
+                Atmospheric, story-driven sci-fi puzzle platformer awarded 3rd Place at IIT Ropar GameJam 2025. Follows the poignant journey of a lone robot waking inside a decaying industrial facility to recover its scattered memory fragments through tactile mechanical puzzles.
+              </p>
+              <div class="game-features">
+                <div class="game-feature-item">
+                  <span class="bullet">✓</span>
+                  <span>Custom physics puzzle mechanics and environmental interaction</span>
+                </div>
+                <div class="game-feature-item">
+                  <span class="bullet">✓</span>
+                  <span>Moody volumetric lighting, shadow shaders, and ambient soundscapes</span>
+                </div>
+                <div class="game-feature-item">
+                  <span class="bullet">✓</span>
+                  <span>Award-winning level design and environmental narrative pacing</span>
+                </div>
+              </div>
+              <div class="game-tags">
+                <span class="tag-pill">Unity</span>
+                <span class="tag-pill">C#</span>
+                <span class="tag-pill">GameJam Winner</span>
+                <span class="tag-pill">Physics Puzzles</span>
+                <span class="tag-pill">Atmospheric</span>
+              </div>
+              <div class="game-actions">
+                <a href="https://indieangamedev.itch.io/fractured-core" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  Play on Itch.io ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Game 3: Halka Shahrukh -->
+          <article class="game-card">
+            <div class="game-media-box">
+              <img src="assets/halka_shahrukh.jpg" alt="Halka Shahrukh cover art">
+              <span class="game-badge webgl">WebGL Browser Play</span>
+            </div>
+            <div class="game-content">
+              <span class="game-category">Horror-Comedy / Stealth Survival</span>
+              <h3 class="game-title">
+                <a href="https://indieangamedev.itch.io/halka-shahrukh" target="_blank" rel="noopener noreferrer">
+                  Halka Shahrukh
+                </a>
+              </h3>
+              <p class="game-desc">
+                Viral horror-comedy stealth survival experience inspired by popular Indian meme culture. Trapped inside a dimly lit house, players must scavenge escape keys and solve puzzles while evading an unpredictable, vocal AI pursuer. Fully playable directly in the browser.
+              </p>
+              <div class="game-features">
+                <div class="game-feature-item">
+                  <span class="bullet">✓</span>
+                  <span>Instant browser play via optimized WebGL build with zero install</span>
+                </div>
+                <div class="game-feature-item">
+                  <span class="bullet">✓</span>
+                  <span>Dynamic pursuer AI with line-of-sight and acoustic alert detection</span>
+                </div>
+                <div class="game-feature-item">
+                  <span class="bullet">✓</span>
+                  <span>Spatial 3D positional audio enhancing both comedy and suspense</span>
+                </div>
+              </div>
+              <div class="game-tags">
+                <span class="tag-pill">Unity WebGL</span>
+                <span class="tag-pill">C#</span>
+                <span class="tag-pill">Stealth AI</span>
+                <span class="tag-pill">Browser Playable</span>
+                <span class="tag-pill">Comedy Horror</span>
+              </div>
+              <div class="game-actions">
+                <a href="https://indieangamedev.itch.io/halka-shahrukh" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  Play in Browser (Itch.io) ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Game 4: AstroLoop -->
+          <article class="game-card">
+            <div class="game-media-box" style="background: linear-gradient(135deg, #1e1b4b, #312e81);">
+              <div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #c7d2fe; font-size: 1.25rem; font-weight: 700;">
+                AstroLoop: Beat in Motion
+              </div>
+              <span class="game-badge">Google Play Store</span>
+            </div>
+            <div class="game-content">
+              <span class="game-category">Commercial Mobile Title</span>
+              <h3 class="game-title">
+                AstroLoop: Beat in Motion
+              </h3>
+              <p class="game-desc">
+                Commercial mobile rhythm title shipped on Google Play Store (NexTribe Studios). Built as the sole Unity developer, implementing precision audio beat-detection algorithms, input calibration pipelines, and live monetization SDK integrations.
+              </p>
+              <div class="game-features">
+                <div class="game-feature-item">
+                  <span class="bullet">✓</span>
+                  <span>Sub-millisecond audio-to-visual synchronization engine</span>
+                </div>
+                <div class="game-feature-item">
+                  <span class="bullet">✓</span>
+                  <span>Touch latency mitigation and multi-resolution mobile scaling</span>
+                </div>
+                <div class="game-feature-item">
+                  <span class="bullet">✓</span>
+                  <span>Production Google Play Store deployment and release pipelines</span>
+                </div>
+              </div>
+              <div class="game-tags">
+                <span class="tag-pill">Unity 3D</span>
+                <span class="tag-pill">C#</span>
+                <span class="tag-pill">Google Play</span>
+                <span class="tag-pill">Audio Engine</span>
+                <span class="tag-pill">Commercial</span>
+              </div>
+              <div class="game-actions">
+                <a href="https://github.com/avinash893" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  Developer Profile ↗
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 4. Dedicated Section: 3D Graphics & Simulation Pipeline -->
+      <section id="graphics" class="section-wrapper">
+        <div class="section-head">
+          <span class="section-eyebrow">Hardware-Accelerated Systems</span>
+          <h2 class="section-title">OpenGlt — Custom 3D Graphics Engine</h2>
+          <p class="section-description">
+            Hardware-accelerated 3D model visualizer and rendering pipeline built in modern C++17 with OpenGL 3.3+, compiled for both native Windows and the web via WebGL.
+          </p>
+        </div>
+
+        <div class="graphics-feature-box">
+          <div class="graphics-details">
+            <div>
+              <span class="graphics-header-tag">Live WebGL & Native Desktop C++17</span>
+              <h3 class="graphics-title">
+                Hardware 3D Visualizer & Scene Editor
+              </h3>
+              <p class="graphics-summary">
+                A dual-target 3D graphics system equipped with a Dear ImGui editor suite, drag-and-drop 3D asset ingestion, camera auto-focus framing, scene hierarchy management, object duplication (Shift+D), and mouse-click raycasting selection with transform gizmos.
+              </p>
+
+              <div class="graphics-spec-grid">
+                <div class="spec-block">
+                  <div class="spec-title">Drag & Drop 3D Loading</div>
+                  <div class="spec-desc">Drop any .gltf, .glb, or .obj file; the engine parses meshes and animates the camera to immediately frame the model.</div>
+                </div>
+                <div class="spec-block">
+                  <div class="spec-title">Scene Graph & Hierarchy</div>
+                  <div class="spec-desc">Full scene tree hierarchy with entity inspection, primitive spawning (+Cube, +Sphere), and Delete key removal.</div>
+                </div>
+                <div class="spec-block">
+                  <div class="spec-title">Shift+D Clone & Picking</div>
+                  <div class="spec-desc">Clone any selected entity via Shift+D. Viewport raycasting selects objects with golden wireframe cages and translation gizmos.</div>
+                </div>
+                <div class="spec-block">
+                  <div class="spec-title">Blinn-Phong Lighting</div>
+                  <div class="spec-desc">Multi-light GLSL shader pipeline supporting directional sun, point lights, and spotlights with specular gloss maps.</div>
+                </div>
+              </div>
+
+              <div class="game-tags">
+                <span class="tag-pill">C++17</span>
+                <span class="tag-pill">OpenGL 3.3+</span>
+                <span class="tag-pill">GLSL</span>
+                <span class="tag-pill">Assimp</span>
+                <span class="tag-pill">GLFW</span>
+                <span class="tag-pill">GLM</span>
+                <span class="tag-pill">Dear ImGui</span>
+                <span class="tag-pill">WebGL / WASM</span>
+              </div>
+            </div>
+
+            <div class="graphics-actions">
+              <a href="https://openglt-3d-visualizer.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                Launch Live App (Vercel) ↗
+              </a>
+              <a href="https://avinash893.github.io/OpenGlt/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                GitHub Pages Demo ↗
+              </a>
+              <a href="https://github.com/avinash893/OpenGlt" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                C++ Repository ↗
+              </a>
+            </div>
+          </div>
+
+          <div class="graphics-preview-side">
+            <div class="schematic-box">
+              <div class="schematic-banner">
+                OPENGLT ENGINE ARCHITECTURE
+              </div>
+              <div class="schematic-row">
+                <span class="schematic-key">GEOMETRY LOADER</span>
+                <span class="schematic-val">Assimp (.obj, .gltf, .glb, .stl)</span>
+              </div>
+              <div class="schematic-row">
+                <span class="schematic-key">SHADING MODEL</span>
+                <span class="schematic-val">Blinn-Phong GLSL Multi-Light</span>
+              </div>
+              <div class="schematic-row">
+                <span class="schematic-key">UI DOCKING</span>
+                <span class="schematic-val">Dear ImGui (Hierarchy & Inspector)</span>
+              </div>
+              <div class="schematic-row">
+                <span class="schematic-key">INTERACTION</span>
+                <span class="schematic-val">Raycast Picking / Shift+D / Del</span>
+              </div>
+              <div class="schematic-row">
+                <span class="schematic-key">TARGET RUNTIMES</span>
+                <span class="schematic-val">Native Win64 Executable + WebGL</span>
+              </div>
+              <div class="schematic-row">
+                <span class="schematic-key">PERFORMANCE</span>
+                <span class="schematic-val">60 FPS Hardware VSync</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. Dedicated Section: Real-Time & Distributed Systems -->
+      <section id="systems" class="section-wrapper">
+        <div class="section-head">
+          <span class="section-eyebrow">Backend & Networking</span>
+          <h2 class="section-title">Real-Time & Distributed Systems</h2>
+          <p class="section-description">
+            Production web platforms, low-latency WebRTC media streaming, partitioned microservices, and desktop automation tools.
+          </p>
+        </div>
+
+        <div class="systems-grid">
+          <!-- We Hear (Live Production) -->
+          <article class="system-card featured">
+            <div>
+              <div class="system-top-row">
+                <span class="system-badge">Live Production / WebRTC</span>
+                <a href="https://wehearapp.online/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">Visit Site ↗</a>
+              </div>
+              <h3 class="system-title">
+                <a href="https://wehearapp.online/" target="_blank" rel="noopener noreferrer">
+                  We Hear — Anonymous Peer Calling
+                </a>
+              </h3>
+              <p class="system-desc">
+                High-concurrency production application enabling anonymous 1-to-1 video companionship with zero shared identity metadata and sub-100ms streaming latency.
+              </p>
+              <div class="system-bullets">
+                <div class="system-bullet-item">
+                  <span class="arrow">→</span>
+                  <span>End-to-end encrypted SRTP audio/video via STUN/TURN and Socket.IO handshakes</span>
+                </div>
+                <div class="system-bullet-item">
+                  <span class="arrow">→</span>
+                  <span>Automated pseudonym generation preventing user profiling and metadata leakage</span>
+                </div>
+                <div class="system-bullet-item">
+                  <span class="arrow">→</span>
+                  <span>Razorpay payment flow with 24-hour automated refund worker and balance audit trails</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="game-tags">
+                <span class="tag-pill">Next.js 14</span>
+                <span class="tag-pill">TypeScript</span>
+                <span class="tag-pill">WebRTC</span>
+                <span class="tag-pill">Socket.IO</span>
+                <span class="tag-pill">Prisma ORM</span>
+                <span class="tag-pill">PostgreSQL</span>
+              </div>
+              <div style="display: flex; gap: 0.5rem; margin-top: 1rem;">
+                <a href="https://wehearapp.online/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Live App ↗</a>
+                <a href="https://github.com/avinash893/we-hear" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">Repo ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Nomato -->
+          <article class="system-card">
+            <div>
+              <div class="system-top-row">
+                <span class="system-badge" style="color: var(--accent-amber);">Microservices Architecture</span>
+                <a href="https://github.com/avinash893/nomato" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">Repo ↗</a>
+              </div>
+              <h3 class="system-title">
+                <a href="https://github.com/avinash893/nomato" target="_blank" rel="noopener noreferrer">
+                  Nomato — Food Ordering Platform
+                </a>
+              </h3>
+              <p class="system-desc">
+                Modular food ordering and logistics platform partitioned into independent microservices with real-time geospatial partner tracking.
+              </p>
+              <div class="system-bullets">
+                <div class="system-bullet-item">
+                  <span class="arrow">→</span>
+                  <span>Microservices split: Auth (JWT/OAuth), Restaurant Inventory, Rider Dispatch, and Billing</span>
+                </div>
+                <div class="system-bullet-item">
+                  <span class="arrow">→</span>
+                  <span>Leaflet map integration with reverse geocoding and live delivery route tracking</span>
+                </div>
+                <div class="system-bullet-item">
+                  <span class="arrow">→</span>
+                  <span>Atomic customer cart verification, menu state toggling, and driver KYC workflows</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="game-tags">
+                <span class="tag-pill">React 19</span>
+                <span class="tag-pill">TypeScript</span>
+                <span class="tag-pill">Node.js</span>
+                <span class="tag-pill">Socket.IO</span>
+                <span class="tag-pill">Leaflet</span>
+                <span class="tag-pill">MongoDB</span>
+              </div>
+              <div style="margin-top: 1rem;">
+                <a href="https://github.com/avinash893/nomato" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">View Repository ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CallSummarizer -->
+          <article class="system-card">
+            <div>
+              <div class="system-top-row">
+                <span class="system-badge" style="color: var(--accent-vermilion);">WebRTC / NLP Pipeline</span>
+                <a href="https://github.com/avinash893/CallSummarizer" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">Repo ↗</a>
+              </div>
+              <h3 class="system-title">
+                <a href="https://github.com/avinash893/CallSummarizer" target="_blank" rel="noopener noreferrer">
+                  CallSummarizer — Video Collaboration
+                </a>
+              </h3>
+              <p class="system-desc">
+                Video conference platform capturing multi-party audio, running transcript chunking, and producing structured executive summaries with automated task assignments.
+              </p>
+              <div class="system-bullets">
+                <div class="system-bullet-item">
+                  <span class="arrow">→</span>
+                  <span>High-concurrency signaling server handling multi-room SDP offer/answer handshakes</span>
+                </div>
+                <div class="system-bullet-item">
+                  <span class="arrow">→</span>
+                  <span>NLP audio transcription chunking speech into actionable agendas and action items</span>
+                </div>
+                <div class="system-bullet-item">
+                  <span class="arrow">→</span>
+                  <span>Multi-container Docker Compose orchestration for local and cloud environments</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="game-tags">
+                <span class="tag-pill">WebRTC</span>
+                <span class="tag-pill">React</span>
+                <span class="tag-pill">Node.js</span>
+                <span class="tag-pill">NLP</span>
+                <span class="tag-pill">Docker</span>
+              </div>
+              <div style="margin-top: 1rem;">
+                <a href="https://github.com/avinash893/CallSummarizer" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">View Repository ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Multi CS2 Farm & 2FA Manager -->
+          <article class="system-card">
+            <div>
+              <div class="system-top-row">
+                <span class="system-badge" style="color: var(--accent-emerald);">Desktop Systems & Automation</span>
+                <a href="https://github.com/avinash893/multi-cs2-farm-inventory-manager" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">Repo ↗</a>
+              </div>
+              <h3 class="system-title">
+                <a href="https://github.com/avinash893/multi-cs2-farm-inventory-manager" target="_blank" rel="noopener noreferrer">
+                  Multi CS2 Farm & 2FA Manager
+                </a>
+              </h3>
+              <p class="system-desc">
+                Desktop utility and local web wizard for multi-account Steam users with automated TOTP generation, trade dispatching, and market price valuation.
+              </p>
+              <div class="system-bullets">
+                <div class="system-bullet-item">
+                  <span class="arrow">→</span>
+                  <span>Multi-account Steam Guard TOTP 2FA authenticator with synchronized 30s timers</span>
+                </div>
+                <div class="system-bullet-item">
+                  <span class="arrow">→</span>
+                  <span>Real-time inventory valuation querying Steam market price APIs with local caching</span>
+                </div>
+                <div class="system-bullet-item">
+                  <span class="arrow">→</span>
+                  <span>Automated trade dispatching with batch mobile confirmation approvals</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="game-tags">
+                <span class="tag-pill">Python</span>
+                <span class="tag-pill">CustomTkinter</span>
+                <span class="tag-pill">Steam API</span>
+                <span class="tag-pill">Cryptography</span>
+              </div>
+              <div style="margin-top: 1rem;">
+                <a href="https://github.com/avinash893/multi-cs2-farm-inventory-manager" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">View Repository ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 6. Dedicated Section: Technical Skills Matrix -->
+      <section id="skills" class="section-wrapper">
+        <div class="section-head">
+          <span class="section-eyebrow">Technical Competencies</span>
+          <h2 class="section-title">Skills & Toolchain</h2>
+          <p class="section-description">
+            Comprehensive breakdown of programming languages, game engines, graphics pipelines, real-time protocols, and databases.
+          </p>
+        </div>
+
+        <div class="skills-matrix-card">
+          <table class="skills-table">
+            <thead>
+              <tr>
+                <th style="width: 24%;">Domain</th>
+                <th style="width: 54%;">Technologies & Toolchain</th>
+                <th style="width: 22%;">Proficiency</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="skill-domain-title">Game Development</div>
+                </td>
+                <td>
+                  <div class="skill-pills-wrap">
+                    <span class="skill-item-badge bold">Unity 3D / 2D</span>
+                    <span class="skill-item-badge bold">C#</span>
+                    <span class="skill-item-badge">WebGL Export</span>
+                    <span class="skill-item-badge">NavMesh AI</span>
+                    <span class="skill-item-badge">Physics Simulation</span>
+                    <span class="skill-item-badge">Google Play Services</span>
+                    <span class="skill-item-badge">Itch.io Deployment</span>
+                  </div>
+                </td>
+                <td>
+                  <span class="skill-level-text" style="color: var(--accent-vermilion);">Advanced (4 Shipped)</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="skill-domain-title">Graphics & Low-Level</div>
+                </td>
+                <td>
+                  <div class="skill-pills-wrap">
+                    <span class="skill-item-badge bold">C++17 / C</span>
+                    <span class="skill-item-badge bold">OpenGL 3.3+</span>
+                    <span class="skill-item-badge bold">GLSL Shaders</span>
+                    <span class="skill-item-badge">Assimp 3D Importer</span>
+                    <span class="skill-item-badge">Dear ImGui</span>
+                    <span class="skill-item-badge">GLFW / GLM</span>
+                    <span class="skill-item-badge">CMake</span>
+                  </div>
+                </td>
+                <td>
+                  <span class="skill-level-text" style="color: var(--accent-cyan);">Advanced (Engine Author)</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="skill-domain-title">Real-Time Web & APIs</div>
+                </td>
+                <td>
+                  <div class="skill-pills-wrap">
+                    <span class="skill-item-badge bold">WebRTC (P2P / STUN / TURN)</span>
+                    <span class="skill-item-badge bold">Next.js 14 / React 19</span>
+                    <span class="skill-item-badge bold">TypeScript</span>
+                    <span class="skill-item-badge">Socket.IO / WebSockets</span>
+                    <span class="skill-item-badge">Node.js / Express</span>
+                    <span class="skill-item-badge">Tailwind CSS</span>
+                  </div>
+                </td>
+                <td>
+                  <span class="skill-level-text" style="color: var(--accent-vermilion);">Advanced (Production)</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="skill-domain-title">Databases & DevOps</div>
+                </td>
+                <td>
+                  <div class="skill-pills-wrap">
+                    <span class="skill-item-badge bold">PostgreSQL</span>
+                    <span class="skill-item-badge bold">Prisma ORM</span>
+                    <span class="skill-item-badge">MongoDB</span>
+                    <span class="skill-item-badge">Docker & Docker Compose</span>
+                    <span class="skill-item-badge">Git / GitHub</span>
+                    <span class="skill-item-badge">Razorpay API</span>
+                  </div>
+                </td>
+                <td>
+                  <span class="skill-level-text" style="color: var(--accent-amber);">Proficient</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="skill-domain-title">Algorithms & Core CS</div>
+                </td>
+                <td>
+                  <div class="skill-pills-wrap">
+                    <span class="skill-item-badge bold">Data Structures & Algorithms</span>
+                    <span class="skill-item-badge">Operating Systems</span>
+                    <span class="skill-item-badge">Computer Networks</span>
+                    <span class="skill-item-badge">DBMS</span>
+                    <span class="skill-item-badge">Python</span>
+                  </div>
+                </td>
+                <td>
+                  <span class="skill-level-text" style="color: var(--accent-emerald);">551+ LC Solved</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 7. Dedicated Section: Verified Profiles & Benchmarks -->
+      <section id="profiles" class="section-wrapper">
+        <div class="section-head">
+          <span class="section-eyebrow">External Verification</span>
+          <h2 class="section-title">Verified Profiles & Benchmarks</h2>
+          <p class="section-description">
+            Algorithmic credentials, public source repositories, indie game releases, and professional platforms.
+          </p>
+        </div>
+
+        <div class="profiles-grid">
+          <div class="profile-card">
+            <div>
+              <span class="profile-platform">Itch.io Games</span>
+              <div class="profile-handle">avinash-shah</div>
+              <p class="profile-stat-text">Outbreak: Day Zero / Fractured Core (3rd Place) / Halka Shahrukh</p>
+            </div>
+            <a href="https://avinash-shah.itch.io/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              Itch.io Page ↗
+            </a>
+          </div>
+
+          <div class="profile-card">
+            <div>
+              <span class="profile-platform">LeetCode</span>
+              <div class="profile-handle">user7340xt</div>
+              <p class="profile-stat-text">551+ Solved / Top 2.5% Medium / Consistent DSA Track Record</p>
+            </div>
+            <a href="https://leetcode.com/u/user7340xt/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              Verify Profile ↗
+            </a>
+          </div>
+
+          <div class="profile-card">
+            <div>
+              <span class="profile-platform">GitHub</span>
+              <div class="profile-handle">avinash893</div>
+              <p class="profile-stat-text">28+ Public Repos across C++ Graphics, WebRTC, and Microservices</p>
+            </div>
+            <a href="https://github.com/avinash893" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              Browse Repos ↗
+            </a>
+          </div>
+
+          <div class="profile-card">
+            <div>
+              <span class="profile-platform">HackerRank</span>
+              <div class="profile-handle">khurana_aaa3</div>
+              <p class="profile-stat-text">Problem Solving Gold Badge / Verified Competitive Foundation</p>
+            </div>
+            <a href="https://www.hackerrank.com/profile/khurana_aaa3" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              View Badge ↗
+            </a>
+          </div>
+
+          <div class="profile-card">
+            <div>
+              <span class="profile-platform">LinkedIn</span>
+              <div class="profile-handle">avinash-shah</div>
+              <p class="profile-stat-text">Professional Network / IIIT Una '27 CSE / Project Updates</p>
+            </div>
+            <a href="https://www.linkedin.com/in/avinash-shah-19447628a/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              Connect ↗
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8. Contact Section -->
+      <section id="contact" class="section-wrapper">
+        <div class="contact-card-box">
+          <span class="section-eyebrow">Get In Touch</span>
+          <h2 class="contact-heading">Let's Build Together</h2>
+          <p class="contact-sub">
+            Available for game engineering roles, 3D graphics positions, gameplay programming, and software engineering internships.
+          </p>
+
+          <div class="contact-email-bar">
+            <span class="email-address" id="emailVal">avinash.1kshah@gmail.com</span>
+            <button class="btn btn-secondary btn-sm" id="copyEmailBtn">
+              Copy Email
+            </button>
+          </div>
+
+          <div class="contact-button-row">
+            <a href="mailto:avinash.1kshah@gmail.com" class="btn btn-primary">
+              Send Email Direct ↗
+            </a>
+            <a href="https://drive.google.com/file/d/18fDafogWGlxZG-SP24j79e-df253U2F3/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              Curriculum Vitae [PDF] ↗
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div>
+        <span>Avinash Shah / IIIT Una '27 / All Rights Reserved</span>
+      </div>
+      <div class="footer-nav">
+        <a href="https://avinash-shah.itch.io/" target="_blank" rel="noopener noreferrer">Itch.io</a>
+        <a href="https://openglt-3d-visualizer.vercel.app" target="_blank" rel="noopener noreferrer">OpenGlt</a>
+        <a href="https://wehearapp.online/" target="_blank" rel="noopener noreferrer">We Hear</a>
+        <a href="https://github.com/avinash893" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/avinash-shah-19447628a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://leetcode.com/u/user7340xt/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toastBox" class="toast-box">
+    Email copied to clipboard!
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
